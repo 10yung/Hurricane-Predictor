@@ -1,0 +1,5 @@
+SQLALCHEMY_DATABASE_URI = 'mysql://user:password@localhost/database_name'
+SQLALCHEMY_USERNAME='user'
+SQLALCHEMY_PASSWORD='password'
+SQLALCHEMY_DATABASE_NAME='databasename'
+SQLALCHEMY_TRACK_MODIFICATIONS = False
