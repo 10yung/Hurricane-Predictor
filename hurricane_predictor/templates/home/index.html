@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block body %}
+<div class="row justify-content-md-center">
+    <div class="col-12 col-sm-8 col-md-6 col-lg-4 ">
+        <form method="POST" action="/result">
+            <div class="form-group">
+                <label for="InputLatitude">Latitude</label>
+                <input type="text" name="latitude" class="form-control" id="InputLatitude" aria-describedby="emailHelp">
+            </div>
+            <div class="form-group">
+                <label for="InputLongitude">Longitude</label>
+                <input type="text" name="longitude" class="form-control" id="InputLongitude">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>
+{% endblock %}
